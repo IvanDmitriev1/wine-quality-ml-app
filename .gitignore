@@ -1,0 +1,22 @@
+# Python environments and local runtime
+.venv/
+venv/
+.runtime/
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated delivery archive
+wine_app.zip
